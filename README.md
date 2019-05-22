@@ -1,4 +1,4 @@
-# Create Stencil
+# Create Mob App
 
 > Note that you will need to use npm 6 or higher.
 
@@ -12,23 +12,22 @@ To install latest version of `npm`
 
 ## Usage
 
-
 ### Interactive mode
 
 ```
-npm init stencil
+npm init mob-app
 ```
 
 ### Command mode
 
 ```
-npm init stencil <starter> <projectName>
+npm init mob-app <starter> <projectName>
 ```
 
 Example:
 
 ```
-npm init stencil app my-stencil-app
+npm init mob-app app my-stencil-app
 ```
 
 ## Built-in starters
@@ -55,22 +54,21 @@ npm start
 
 And it will help you test out your changes.
 
-
 ## Citations
 
 Created by William M. Riley:
-* [Twitter](https://twitter.com/splitinfinities)
-* [Github](https://github.com/splitinfinities)
 
+- [Twitter](https://twitter.com/splitinfinities)
+- [Github](https://github.com/splitinfinities)
 
 ## Related
 
-* [Stencil Documentation](https://stenciljs.com/)
-* [Stencil Worldwide Slack](https://stencil-worldwide.slack.com)
-* [Ionic](https://ionicframework.com/)
-* [Ionic Worldwide Slack](http://ionicworldwide.herokuapp.com/)
-* [Ionicons](http://ionicons.com/)
-
+- [Stencil Documentation](https://stenciljs.com/)
+- [Stencil Worldwide Slack](https://stencil-worldwide.slack.com)
+- [Ionic](https://ionicframework.com/)
+- [Ionic Worldwide Slack](http://ionicworldwide.herokuapp.com/)
+- [Ionicons](http://ionicons.com/)
 
 ## License
-* MIT
+
+- MIT

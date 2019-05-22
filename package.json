@@ -1,7 +1,7 @@
 {
-  "name": "create-stencil",
-  "version": "1.7.1",
-  "description": "Quickly create a new stencil application: npm init stencil",
+  "name": "create-mob-app",
+  "version": "1.0.0",
+  "description": "Quickly create a new mobiquity application: npm init mob-app",
   "main": "dist/index.js",
   "scripts": {
     "start": "node dist/index.js",
@@ -40,16 +40,23 @@
     "typescript": "^3.1.6",
     "yauzl": "^2.10.0"
   },
-  "author": "Ionic Team & William M. Riley",
+  "author": "Steve Emmerich",
   "license": "MIT",
   "keywords": [
-    "stencil",
+    "MobiquityIn",
     "stenciljs",
-    "web components",
-    "pwa",
+    "react-native",
+    "ionic",
     "create-app",
-    "cli",
-    "progress web app",
-    "ionic"
-  ]
+    "cli"
+  ],
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/semmerich-mob/create-stencil.git"
+  },
+  "bugs": {
+    "url": "https://github.com/semmerich-mob/create-stencil/issues"
+  },
+  "homepage": "https://github.com/semmerich-mob/create-stencil#readme"
 }

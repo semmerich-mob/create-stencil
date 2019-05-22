@@ -1,4 +1,3 @@
-
 export interface Starter {
   name: string;
   repo: string;
@@ -9,38 +8,31 @@ export interface Starter {
 
 export const STARTERS: Starter[] = [
   {
-    name: 'ionic-pwa',
-    repo: 'ionic-team/ionic-pwa-toolkit',
-    description: 'Everything you need to build fast, production ready PWAs',
-    docs: 'https://beta.ionicframework.com'
+    name: "ionic-app",
+    repo: "Mobiquity/ionic-boilerplate",
+    description: "Start an Ionic app that matches Mob standards",
+    docs: "https://github.com/Mobiquity/ionic-boilerplate/tree/master/doc"
   },
   {
-    name: 'app',
-    repo: 'ionic-team/stencil-app-starter',
-    description: 'Minimal starter for building a Stencil app or website',
-    docs: 'https://github.com/ionic-team/stencil-app-starter'
+    name: "react-native-app",
+    repo: "Mobiquity/react-native-boilerplate",
+    description: "Start a React Native app that matches Mob standards",
+    docs:
+      "https://github.com/Mobiquity/react-native-boilerplate/tree/master/doc"
   },
   {
-    name: 'component',
-    repo: 'ionic-team/stencil-component-starter',
-    description: 'Collection of web components that can be used anywhere',
-    docs: 'https://github.com/ionic-team/stencil-component-starter'
-  },
-  {
-    name: 'components',
-    repo: 'ionic-team/stencil-component-starter',
-    description: 'Collection of web components that can be used anywhere',
-    docs: 'https://github.com/ionic-team/stencil-component-starter',
-    hidden: true
+    name: "stencil-app",
+    repo: "Mobiquity/stencil-boilerplate",
+    description: "Start a stencil app that can use any framework",
+    docs: "https://github.com/Mobiquity/stencil-boilerplate/tree/master/doc"
   }
 ];
 
-
 export function getStarterRepo(starterName: string): Starter {
-  if (starterName.includes('/')) {
+  if (starterName.includes("/")) {
     return {
       name: starterName,
-      repo: starterName,
+      repo: starterName
     };
   }
   const repo = STARTERS.find(starter => starter.name === starterName);
@@ -49,4 +41,3 @@ export function getStarterRepo(starterName: string): Starter {
   }
   return repo;
 }
-
