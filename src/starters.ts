@@ -16,6 +16,7 @@ export const STARTERS: Starter[] = [
   {
     name: "react-native-app",
     repo: "Mobiquity/react-native-boilerplate",
+    // https://github.com/Mobiquity/react-native-boilerplate/archive/master.zip
     description: "Start a React Native app that matches Mob standards",
     docs:
       "https://github.com/Mobiquity/react-native-boilerplate/tree/master/doc"
